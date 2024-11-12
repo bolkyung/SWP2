@@ -30,7 +30,7 @@ void setup()
   myservo.attach(PIN_SERVO); 
   myservo.writeMicroseconds(_DUTY_NEU);
   
-  Serial.begin(100000); 
+  Serial.begin(1000000); 
 }
 
 void loop()
